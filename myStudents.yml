@@ -1,0 +1,24 @@
+---
+- Students:
+  - name: anil
+    phono: 828282828282
+    address:
+        doorNo: 223
+        streetNO: 1
+        pinCode: 500022
+
+  - name: funmilayo
+    phono: 676767676767
+    address:
+      doorNo: 223
+      streetNO: 1
+      pinCode: 500022
+
+  - name: hanitha
+    phono: 565656566565
+    address: 
+       doorNo: 223
+       streetNO: 1
+       pinCode: 500022
+
+
