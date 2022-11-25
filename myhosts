@@ -14,10 +14,6 @@
 172.31.30.81
 
 
-[mywebservers:vars]
-mywebapackonubuntu=apache2
-mywebapackonredhat=httpd
-
 
 
 
