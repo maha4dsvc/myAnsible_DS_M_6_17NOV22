@@ -1,0 +1,8 @@
+[group]
+node01  java8
+node02  java8
+node03  java8
+node04  java11
+node05  java8
+
+note: host vars are more importance than group vars by ansible eng
