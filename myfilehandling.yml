@@ -3,11 +3,18 @@
   become: yes
   tasks:
   - include_tasks: myfilee.yml
+
   - name: install webserver
     apt:
       name: apache2
+
   - name:  i want to copy static file into ansible nodes
     copy:
       src: mystatic.txt
       dest: /home/ubuntu/mystatic.txt
+
+  - name:  i want to copy dyna file into ansible nodes
+    template:
+      src:  mydynofile
+      dest: /var/www/html/index.html
      
