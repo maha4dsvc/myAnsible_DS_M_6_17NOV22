@@ -15,6 +15,6 @@
 
   - name:  i want to copy dyna file into ansible nodes
     template:
-      src:  mydynofile
+      src:  mydynofile.j2
       dest: /var/www/html/index.html
      
