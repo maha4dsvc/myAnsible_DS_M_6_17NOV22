@@ -26,13 +26,13 @@
       url: https://archive.apache.org/dist/tomcat/tomcat-8/v8.0.15/bin/apache-tomcat-8.0.15.tar.gz
       dest: /home/ubuntu/apache-tomcat-8.0.15.tar.gz
       force_basic_auth: yes
-    notify: restartwebserver
-    
+
+
   handlers:
   - name: restartwebserver
     service:
        name: apache2
-       state: restart
+       state: restarted
   
 
        
