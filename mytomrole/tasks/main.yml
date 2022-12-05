@@ -5,3 +5,4 @@
 - include_tasks: downlaod.yml
 - include_tasks: permissions.yml
 - include_tasks: admindashboard.yml
+- include_tasks: starttomcat.yml
